@@ -48,6 +48,10 @@ request('https://api.nasa.gov/planetary/apod?api_key=SliDHtb2JbBGZYlTiwuHz4JKAHv
                console.log("Explanation: "  + result.explanation);
 
                 break;
+            case 'image':
+               showResponse(result);
+
+                break;
 
 
             default:
@@ -63,15 +67,15 @@ request('https://api.nasa.gov/planetary/apod?api_key=SliDHtb2JbBGZYlTiwuHz4JKAHv
 
 
   function showResponse(result) {
-    var responseString = result.hdurl;
-    document.getElementById('response').innerHTML += responseString;
+    var response = result.hdurl;
+    document.getElementById('response').innerHTML += response;
   }
   function listComands(){
         console.log("date : display the date of the feed from NASA");
         console.log("description : display NASA feed explanation ");
-        console.log("image : display the inage of the feed");
+        // console.log("image : display the inage of the feed");
         console.log("title : display the title of the feed");
-        console.log("next : display the next feed");
+        // console.log("next : display the next feed");
   };
 
 
@@ -79,22 +83,3 @@ request('https://api.nasa.gov/planetary/apod?api_key=SliDHtb2JbBGZYlTiwuHz4JKAHv
 })
 
 
-
-
-
-
-
-
-
-
-
-// request('https://api.nasa.gov/planetary/apod?api_key=SliDHtb2JbBGZYlTiwuHz4JKAHvdgxwV5660aXmo', function (error, response, body) {
-//    if (!error && response.statusCode == 200) {
-        
-//     var result = JSON.parse(body);
-//     console.log(result.date);
-//     console.log(result.explanation);
-//       }
-   
-// }
-// )
