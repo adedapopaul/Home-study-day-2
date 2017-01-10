@@ -1,4 +1,4 @@
-#Home Study Session Day 
+#Home Study Session Day 2
 This repository contain the exercises for the second day of the Andela home study session of the bootcamp. The details of the task for the day are as stated below.
 
 ##Word Count.
