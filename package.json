@@ -1,14 +1,23 @@
 {
-  "name": "home-study-test-day-2",
+  "name": "home-study-day-2",
   "version": "1.0.0",
-  "description": "This are the assignment for the Andela homestudy session of the bootcamp day 2",
-  "main": "app/app.js",
+  "description": "Task for the nome study day 2",
+  "main": "app/api.js",
   "scripts": {
     "test": "jasmine tests.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adedapopaul/Home-study-day-2.git"
+  },
   "author": "Dapo Aderemi",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adedapopaul/Home-study-day-2/issues"
+  },
+  "homepage": "https://github.com/adedapopaul/Home-study-day-2#readme",
   "dependencies": {
-    "jasmine": "^2.5.2"
+    "jasmine": "^2.5.2",
+    "request": "^2.79.0"
   }
 }
