@@ -1,0 +1,14 @@
+{
+  "name": "home-study-test-day-2",
+  "version": "1.0.0",
+  "description": "This are the assignment for the Andela homestudy session of the bootcamp day 2",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "jasmine tests.js"
+  },
+  "author": "Dapo Aderemi",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine": "^2.5.2"
+  }
+}
