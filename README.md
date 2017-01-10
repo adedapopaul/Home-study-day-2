@@ -14,7 +14,12 @@ For example for the input "olly olly in come free”, it should return
 A reverseString function that returns the reverse of the string provided. If the reverse of the string is the same as the original string, as in the case of palindromes, return true instead.
 
 ##HTTP & WEB.
-A simple command line application that consumes a Public API using a HTTP client library.
+A simple command line application that consumes a Public API using a HTTP client library. This makes use of NASA Neo-Feed API. Commands to interact with the CLI is as stated below:
+* date : display the date of the feed from NASA
+* description : display NASA feed explanation
+* image : display the inage of the feed
+* title : display the title of the feed
+* commands : to display list of commands
 
 ##Credit.
 * Andela Bootcamp.
