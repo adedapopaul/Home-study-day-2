@@ -18,6 +18,7 @@
   "homepage": "https://github.com/adedapopaul/Home-study-day-2#readme",
   "dependencies": {
     "jasmine": "^2.5.2",
+    "open": "0.0.5",
     "request": "^2.79.0"
   }
 }
